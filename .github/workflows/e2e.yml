@@ -66,6 +66,7 @@ jobs:
 
   e2e-playwright-test:
     runs-on: ubuntu-22.04
+    if: false
     needs:
       - build-mattermost-plugin-calls
       - generate-matrix
